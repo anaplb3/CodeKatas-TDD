@@ -21,11 +21,11 @@ class FizzBuzz
         number % 3 == 0
     end
 
-    def is_multiple_of_5(number=nil)
+    def is_multiple_of_5(number)
         number % 5 == 0
     end
 
-    def is_multiple_of_3_and_5(number=nil)
+    def is_multiple_of_3_and_5(number)
         is_multiple_of_3(number) and is_multiple_of_5(number)
     end
 
